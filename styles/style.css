@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+}
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.container div{
+    background-color: aliceblue;
+    border: 2px solid red;
+    margin: 5px;
+
+}
+#box-5,#box-6,#box-7,#box-12,#box-13{
+    grid-column: span 2;
+}

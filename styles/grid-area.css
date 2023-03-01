@@ -1,0 +1,35 @@
+
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.main{
+    grid-area: main;
+}
+.article{
+    grid-area: article;
+}
+.aside{
+    grid-area: aside;
+}
+.aside2{
+    grid-area: aside2;
+}
+.footer{
+    grid-area: footer;
+}
+.container{
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    "nav header header header"
+    "nav main article aside"
+    "nav main article aside2"
+    "nav footer footer footer" ;
+}
+.container  header ,nav ,main ,article ,aside ,footer{
+    background-color: #ff3c009c;
+}
